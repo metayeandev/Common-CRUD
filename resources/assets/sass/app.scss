@@ -1,0 +1,44 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+html, body {
+	width: 100%;
+	overflow: hidden;
+}
+
+textarea {
+	display: block;
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid #ccd0d2;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.example-article {
+	text-indent: 20px;
+	letter-spacing: 1px;
+  white-space: nowrap; 
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.panal-footer {
+	border-top: 1px solid #0f0f0f0f;
+	padding: 1.5em 0px;
+}
+
+.article {
+	text-indent: 20px;
+	letter-spacing: 1px;
+}
