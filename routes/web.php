@@ -11,6 +11,7 @@
 |
 */
 
+// Home
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/{id}', 'HomeController@article')->name('article');
 
